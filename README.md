@@ -215,4 +215,3 @@ Together, the three folders provide a structured view of the lab exercises, Caps
 * **Project:** Wipro Selenium Python Automation
 * **Capstone:** Selenium Python Automation Framework
 * **Primary Focus:** Web UI Test Automation using Selenium and Python
-*
