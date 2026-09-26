@@ -1,0 +1,149 @@
+/* =========================================
+   SELENIUM AUTOMATION REPORT
+   ========================================= */
+
+/* Main page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px !important;
+    color: #000000 !important;
+    background-color: #ffffff;
+}
+
+/* Main headings */
+h1,
+h2,
+h3 {
+    color: #000000 !important;
+}
+
+h1 {
+    font-size: 32px !important;
+}
+
+h2 {
+    font-size: 25px !important;
+}
+
+h3 {
+    font-size: 20px !important;
+}
+
+/* Position the main title heading */
+h1 {
+    text-align: left !important;
+    padding-left: 27% !important;
+}
+
+/* Position the shorter generation text further right to look centered */
+h1 + p, 
+#header p {
+    text-align: left !important;
+    padding-left: 32% !important;
+}
+
+/* Environment table */
+#environment {
+    width: 50% !important;
+    color: #2b2b2b !important;
+    font-size: 14px !important;
+}
+
+#environment th,
+#environment td {
+    color: #000000 !important;
+    border: 1px solid #666666 !important;
+    padding: 10px !important;
+    font-size: 14px !important;
+}
+
+/* Summary text */
+.summary,
+.summary *,
+#summary,
+#summary * {
+    color: #000000;
+    font-size: 16px !important;
+}
+
+#results-table {
+    width: 100%;
+    border-collapse: collapse !important;
+    border: 1px solid #535353 !important;
+    font-size: 14px !important;
+}
+
+#results-table th {
+    background-color: #e9ecef !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+    border: 1px solid #444444 !important;
+    padding: 10px !important;
+    text-align: left;
+    font-size: 14px !important;
+}
+
+#results-table td {
+    color: #000000 !important;
+    border: 1px solid #545454 !important;
+    padding: 10px !important;
+    background-color: #ffffff !important;
+    font-size: 13px !important;
+}
+
+/* Alternating rows */
+.results-table tr:nth-child(even) td {
+    background-color: #f7f7f7 !important;
+}
+
+/* Passed result */
+.results-table td.passed {
+    color: #008000 !important;
+    font-weight: bold !important;
+}
+
+/* Failed result */
+.results-table td.failed {
+    color: #cc0000 !important;
+    font-weight: bold !important;
+}
+
+/* Skipped result */
+.results-table td.skipped {
+    color: #996600 !important;
+    font-weight: bold !important;
+}
+
+/* Links */
+a {
+    color: #000000 !important;
+    font-size: 14px;
+}
+
+/* Make test names clearly visible */
+.results-table td a {
+    color: #000000 !important;
+    font-weight: normal;
+    font-size: 14px !important;
+}
+
+/* Checkbox/filter text */
+#filter-container,
+#filter-container *,
+#results-table,
+#results-table * {
+    color: #000000;
+    font-size: 14px !important;
+}
+
+/* General table styling */
+table {
+    border-collapse: collapse;
+    font-size: 14px !important;
+}
+
+th,
+td {
+    border: 1px solid #383838;
+    font-size: 14px !important;
+}
